@@ -1,38 +1,100 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Permanent+Marker&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+html,
+body {
+  background-color: rgb(181, 181, 181);
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  background-color: rgb(206, 206, 206);
+  height: 100px;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+  font-size: 35px;
+  font-family: "Permanent Marker", cursive;
+}
+.nav-item {
+  font-size: 25px;
+}
+.navbar-nav {
+  padding-right: 270px;
+}
+.navbar-collapse {
+  top: 100px;
+  width: 100vw;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9998;
+  background-color: rgb(206, 206, 206);
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-fluid {
+  padding: 0;
+}
+hr {
+  height: 50px;
+  border: none;
+  border-left: 3px solid #333;
+}
+main {
+  min-height: 100%;
+  padding: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.row {
+  padding-top: 30px;
+}
+.fa-brands,
+.fa-envelope {
+  font-size: 50px;
+  color: #333;
+}
+
+footer {
+  background-color: rgb(206, 206, 206);
+  position: 0;
+  bottom: 0;
+  margin-top: 165px;
+}
+.col {
+  padding: 20px;
+}
+@media (max-width: 1399px) {
+  footer {
+    margin-top: 177px;
+  }
+  .navbar-nav {
+    padding: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (max-width: 1199px) {
+  footer {
+    margin-top: 238px;
+  }
+}
+@media (max-width: 375px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+}
+
+.back-end,
+.front-end {
+  font-size: 20px;
+}
+a.i {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
