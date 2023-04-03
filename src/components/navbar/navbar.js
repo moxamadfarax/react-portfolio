@@ -1,5 +1,3 @@
-import { Navbar } from "react-bootstrap";
-
 function Nabbar() {
   return (
     <nav className="navbar navbar-expand-lg">
