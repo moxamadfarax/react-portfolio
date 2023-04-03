@@ -1,3 +1,5 @@
+import img from "../../../img/photo.png";
+
 function AboutMe() {
   const styles = {
     container: { paddingBottom: "90px" },
@@ -7,9 +9,6 @@ function AboutMe() {
       textAlign: "start",
       paddingLeft: "2em",
       marginRight: "-250px",
-    },
-    heading: {
-      /* add any styles you need for the heading */
     },
   };
   return (
@@ -21,7 +20,7 @@ function AboutMe() {
             style={styles.imageWrapper}
           >
             <img
-              src="/img/photo.png"
+              src={img}
               alt="boy and his aunt on a camel at the beach"
               style={styles.image}
             />
