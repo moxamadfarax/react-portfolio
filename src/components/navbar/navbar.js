@@ -1,3 +1,9 @@
+// import Footer from "../footer/footer";
+// import AboutMe from "../pages/aboutme";
+// import Message from "../pages/message";
+// import Projects from "../pages/projects";
+// import Resume from "../pages/resume";
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
@@ -18,7 +24,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto ms-auto nav-underline">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="aboutme.html">
+              <a className="nav-link " href="aboutme.html">
                 About Me
               </a>
             </li>
