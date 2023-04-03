@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Permanent+Marker&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -56,8 +55,7 @@ main {
 .row {
   padding-top: 30px;
 }
-.fa-brands,
-.fa-envelope {
+.icon {
   font-size: 50px;
   color: #333;
 }
