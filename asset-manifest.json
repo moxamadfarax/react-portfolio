@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/moxamadfarax/react-portfolio/static/css/main.9f54fae7.css",
+    "main.js": "/moxamadfarax/react-portfolio/static/js/main.98613b0c.js",
+    "static/media/screenshot1.png": "/moxamadfarax/react-portfolio/static/media/screenshot1.34324f3bfac5a74ec6be.png",
+    "static/media/screenshot6.png": "/moxamadfarax/react-portfolio/static/media/screenshot6.bd5f1e8411894b8c5f1d.png",
+    "static/media/screenshot5.png": "/moxamadfarax/react-portfolio/static/media/screenshot5.120782cca7598bdbd0d9.png",
+    "static/media/screenshot2.png": "/moxamadfarax/react-portfolio/static/media/screenshot2.9af1ba2605adf88e30fb.png",
+    "static/media/screenshot4.png": "/moxamadfarax/react-portfolio/static/media/screenshot4.5281bd1306b447bcd3c5.png",
+    "static/media/screenshot3.png": "/moxamadfarax/react-portfolio/static/media/screenshot3.0c15d349e0ba1de53e35.png",
+    "index.html": "/moxamadfarax/react-portfolio/index.html",
+    "main.9f54fae7.css.map": "/moxamadfarax/react-portfolio/static/css/main.9f54fae7.css.map",
+    "main.98613b0c.js.map": "/moxamadfarax/react-portfolio/static/js/main.98613b0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f54fae7.css",
+    "static/js/main.98613b0c.js"
+  ]
+}
