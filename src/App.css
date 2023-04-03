@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Permanent+Marker&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -61,10 +63,10 @@ main {
 }
 
 footer {
-  background-color: rgb(206, 206, 206);
+  background-color: rgb(221, 221, 221);
   position: 0;
   bottom: 0;
-  margin-top: 165px;
+  margin-top: 187px;
 }
 .col {
   padding: 20px;
@@ -93,6 +95,12 @@ footer {
 .front-end {
   font-size: 20px;
 }
-a.i {
+
+.card-img-top {
+  height: 15em;
+}
+.btn-container {
+  padding-top: 10px;
   display: flex;
+  justify-content: space-around;
 }

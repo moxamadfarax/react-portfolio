@@ -1,4 +1,4 @@
-import img from "../../../img/photo.png";
+import img from "../../assets/img/photo.png";
 
 function AboutMe() {
   const styles = {

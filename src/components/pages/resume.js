@@ -1,3 +1,6 @@
+import pdf from "../../../assets/resume.pdf";
+import resume from "../../../assets/img/resume.png";
+
 function Resume() {
   const styles = {
     resume: { height: "50em" },
@@ -40,12 +43,8 @@ function Resume() {
             <h3>Click the resume to download it</h3>
           </div>
           <div class="col">
-            <a href="resume.pdf" download="">
-              <img
-                src="img/resume.png"
-                alt="resume photo"
-                style={styles.resume}
-              />
+            <a href={pdf} download="">
+              <img src={resume} alt="resume photo" style={styles.resume} />
             </a>
           </div>
         </div>
