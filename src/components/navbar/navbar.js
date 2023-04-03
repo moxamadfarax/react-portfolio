@@ -1,4 +1,4 @@
-function Nabbar() {
+function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
