@@ -3,10 +3,11 @@ import resume from "../../assets/img/resume.png";
 
 function Resume() {
   const styles = {
+    container: { paddingBottom: "170px" },
     resume: { height: "50em" },
   };
   return (
-    <main class="container">
+    <main class="container" style={styles.container}>
       <div class="containerr">
         <div class="row">
           <div class="col">

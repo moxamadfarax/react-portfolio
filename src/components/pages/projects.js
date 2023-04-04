@@ -1,7 +1,10 @@
 import cardInfo from "../../projectsData";
 function Projects() {
+  const styles = {
+    container: { paddingBottom: "222px" },
+  };
   return (
-    <main className="container">
+    <main className="container" style={styles.container}>
       <div className="container text-center card-container">
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
           {cardInfo.map((card) => (

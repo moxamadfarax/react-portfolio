@@ -2,7 +2,7 @@ import img from "../../assets/img/photo.png";
 
 function AboutMe() {
   const styles = {
-    container: { paddingBottom: "90px" },
+    container: { paddingBottom: "83px" },
     imageWrapper: { paddingBottom: "3em" },
     image: { borderRadius: "10px", height: "55rem" },
     textWrapper: {

@@ -1,13 +1,9 @@
-import Navbar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
-import AboutMe from "./components/pages/aboutme";
+import PageBody from "./components/body/body";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <AboutMe />
-      <Footer />
+      <PageBody />
     </div>
   );
 }

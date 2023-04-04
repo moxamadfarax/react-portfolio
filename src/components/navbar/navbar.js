@@ -1,10 +1,6 @@
-// import Footer from "../footer/footer";
-// import AboutMe from "../pages/aboutme";
-// import Message from "../pages/message";
-// import Projects from "../pages/projects";
-// import Resume from "../pages/resume";
+function Navbar(props) {
+  const { handlePageChange, activePage } = props;
 
-function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
@@ -24,22 +20,42 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto ms-auto nav-underline">
             <li className="nav-item">
-              <a className="nav-link " href="aboutme.html">
+              <a
+                className={`nav-link ${
+                  activePage === "aboutme" ? "active" : ""
+                }`}
+                onClick={() => handlePageChange("aboutme")}
+              >
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="projects.html">
+              <a
+                className={`nav-link ${
+                  activePage === "projects" ? "active" : ""
+                }`}
+                onClick={() => handlePageChange("projects")}
+              >
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="message.html">
+              <a
+                className={`nav-link ${
+                  activePage === "message" ? "active" : ""
+                }`}
+                onClick={() => handlePageChange("message")}
+              >
                 Contact Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="resume.html">
+              <a
+                className={`nav-link ${
+                  activePage === "resume" ? "active" : ""
+                }`}
+                onClick={() => handlePageChange("resume")}
+              >
                 Resume
               </a>
             </li>

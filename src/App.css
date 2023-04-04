@@ -17,6 +17,9 @@ nav {
   background-color: rgb(206, 206, 206);
   height: 100px;
 }
+a {
+  cursor: pointer;
+}
 
 .navbar-brand {
   padding-left: 10px;
@@ -66,7 +69,6 @@ footer {
   background-color: rgb(221, 221, 221);
   position: 0;
   bottom: 0;
-  margin-top: 187px;
 }
 .col {
   padding: 20px;
