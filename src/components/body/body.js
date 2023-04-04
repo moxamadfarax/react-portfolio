@@ -16,12 +16,16 @@ function PageBody() {
   let pageContent;
 
   if (activePage === "aboutme") {
+    document.title = "About Me";
     pageContent = <AboutMe />;
   } else if (activePage === "message") {
+    document.title = "Contact Me";
     pageContent = <Message />;
   } else if (activePage === "projects") {
+    document.title = "Projects Page";
     pageContent = <Projects />;
   } else if (activePage === "resume") {
+    document.title = "Resume Page";
     pageContent = <Resume />;
   }
 
