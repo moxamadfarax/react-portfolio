@@ -41,7 +41,8 @@ function AboutMe() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
               ipsum officia quis, voluptas ab repudiandae asperiores non quia
               voluptatem distinctio sapiente similique dolore dignissimos?
-              Corporis esse ea est reprehenderit minus!
+              Corporis esse ea est reprehenderit minus! I don't have the
+              patience to write about myself right now.
             </h2>
           </div>
         </div>

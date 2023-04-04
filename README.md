@@ -3,7 +3,7 @@
 # Description
 
 This project is a portfolio containing an about me page, a message page, a projects page, and a resume page.
-This site was created sing react, styled with bootstrap, and utilizes conditional rendering.
+This site was created using react, styled with bootstrap, and utilizes conditional rendering.
 
 - Below are images of the portfolio website in use.
 
