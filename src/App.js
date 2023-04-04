@@ -1,13 +1,12 @@
 import Navbar from "./components/navbar/navbar";
-
 import Footer from "./components/footer/footer";
-import Projects from "./components/pages/projects";
+import AboutMe from "./components/pages/aboutme";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Projects />
+      <AboutMe />
       <Footer />
     </div>
   );

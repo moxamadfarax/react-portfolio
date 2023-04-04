@@ -1,5 +1,5 @@
-import pdf from "../../../assets/resume.pdf";
-import resume from "../../../assets/img/resume.png";
+import pdf from "../../assets/resume.pdf";
+import resume from "../../assets/img/resume.png";
 
 function Resume() {
   const styles = {
