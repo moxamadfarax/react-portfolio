@@ -28,11 +28,11 @@ const cardInfo = [
     repo: "https://github.com/moxamadfarax/work-day-scheduler",
   },
   {
-    name: "Note App",
+    name: "Lyric Library",
     img: screeny4,
-    alt: "Photo of a note taker app",
-    website: "https://app-notes.herokuapp.com/",
-    repo: "https://github.com/moxamadfarax/note-taker-app",
+    alt: "Photo of a song search app",
+    website: "https://lyric-library.herokuapp.com/",
+    repo: "https://github.com/moxamadfarax/lyric-library",
   },
   {
     name: "Even Better Reads",
