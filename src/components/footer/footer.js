@@ -9,12 +9,12 @@ function Footer() {
         <div className="row">
           <div className="col"></div>
           <div className="col">
-            <a href="https://github.com/moxamadfarax">
+            <a href="https://www.linkedin.com/in/mohamed-farah-77309b256/">
               <FontAwesomeIcon className="icon" icon={faLinkedin} />
             </a>
           </div>
           <div className="col">
-            <a href="https://www.linkedin.com/in/mohamed-farah-77309b256/">
+            <a href="https://github.com/moxamadfarax">
               <FontAwesomeIcon className="icon" icon={faGithub} />
             </a>
           </div>
